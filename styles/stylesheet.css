@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Edmond Sans";
+    src: url(fonts/Edmondsans-Regular.otf)format('truetype');
+  }
+  a:link {
+    color: rgb(64, 61, 57);
+  }
+
+  /* visited link */
+  a:visited {
+    color: rgb(64, 61, 57);
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: rgb(235, 94, 40);
+  }
+
+header{
+  color: rgb(37, 36, 34);
+  background-color: rgb(204, 197, 185);
+
+}
+body {
+  background-color:rgb(255, 252, 242);
+  text-align: center;
+  font-family: Edmondsans
+
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #CCC5B9;
+  margin:0 auto;
+  width: 295px
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+nav {
+  background-color: rgb(204, 197, 185);
+  border-bottom-style: solid;
+  border-bottom-color: #EB5E28;
+  border-bottom-width: 1px;
+}
+
+h3{
+  color: rgb(37, 36, 34);
+}
+
+h2{
+  color: rgb(37, 36, 34);
+}
+
+ul{
+  list-style-type: none;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+footer{
+  background-color: rgb(204, 197, 185);
+  border-top-style: solid;
+  border-top-color: #EB5E28;
+  border-top-width: 1px;
+
+}
