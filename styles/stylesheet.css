@@ -30,6 +30,11 @@ li {
   border-radius: 10px;
 }
 
+/* change img opacity to 75% when hovering*/
+.projects img:hover{
+  opacity: 75%;
+}
+
 .nav-bar {
   list-style-type: none;
   margin: 0;
