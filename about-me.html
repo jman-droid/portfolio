@@ -4,12 +4,15 @@
     <meta charset="utf-8">
     <title>About</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b01f90bb28.js" crossorigin="anonymous"></script>
   </head>
   <body>
 
     <header>
-      <h1>About Me</h1>
+      <h1>About</h1>
     </header>
 
     <nav>
@@ -46,30 +49,42 @@
     <section>
       <h3>Get in touch!</h3>
 
-      <form action="/action_page.php">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email"><br><br>
-        <input type="submit" value="Submit">
+      <form class="myForm">
 
-      </form>
+              <div class="row">
+                <div class="column">
+                  <div class="input-group">
+                    <label for="customer_name">Name </label>
+                    <input id="customer_name">
+                  </div>
+                <div class="input-group">
+                   <label for="phone_number">Phone </label>
+                    <input type="tel" id="phone_number">
+                  </div>
+              <div class="input-group">
+                  <label for="email_address">Email </label>
+                  <input type="email" id="email_address">
+              </div>
 
-      <p><i>Fill out the form and I'll respond via email. </i></p>
+              <div class="row">
+
+                <button id="submit">Submit</button>
+
+            </div>
+
+        </form>
 
     </section>
 
 
     <footer>
       <ul>
-        <a href="https://www.are.na/jam-man">Are.na</a> |
-        <a href="https://twitter.com/josh_content">Twitter</a> |
-        <a href="https://www.instagram.com/intuitivejoshing/">Instagram</a> |
-        <a href="https://vimeo.com/joshmanley">Vimeo</a>
+        <a href="https://www.are.na/jam-man"><i class="fa-solid fa-asterisk"></i><i class="fa-solid fa-asterisk"></i></a>
+        <a href="https://twitter.com/josh_content"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/intuitivejoshing/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://vimeo.com/joshmanley"><i class="fa-brands fa-vimeo-v"></i></a>
       </ul>
-      <p><small>© 2022 Josh Manley</small><p>
+
 
     </footer>
   </body>
