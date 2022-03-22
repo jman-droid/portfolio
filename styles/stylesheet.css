@@ -68,8 +68,8 @@ li {
   }
 
 
-h3{
-  color: rgb(37, 36, 34);
+.projects h3{
+  color: rgb(255, 252, 242);
 }
 
 h2{
@@ -124,7 +124,7 @@ a {
 .myForm {
   display: flex;
   flex-direction: column;
-  border-radius: 3px;
+  border-radius: 10px;
   padding: 1em;
   font-size: 20px;
 }
@@ -134,7 +134,6 @@ a {
 }
 .column {
   display: flex;
-  flex-direction: column;
   padding: 1em;
 }
 .input-group {
@@ -166,9 +165,10 @@ a {
 
 footer{
   display: flex;
+  flex-direction: row;
   background-color: rgb(204, 197, 185);
   border-radius: 10px;
-  padding: 5px;
-  justify-content: center;
+  padding: 10px;
+  justify-content: space-around;
 
 }
