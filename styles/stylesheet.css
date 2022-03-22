@@ -1,6 +1,6 @@
 
 header{
-  color: rgb(37, 36, 34);
+  color: rgb(255, 252, 242);
   background-color: rgb(204, 197, 185);
   text-align:center;
   border-radius: 10px;
@@ -9,6 +9,8 @@ header{
 
 }
 body {
+  display: flex;
+  flex-direction: column;
   background-color:rgb(255, 252, 242);
   text-align: center;
   font-family: "Poppins", Arial, sans-serif;
@@ -26,29 +28,23 @@ li {
 }
 
 .projects img {
-  width: 100%;
+  width: 80%;
   height: auto;
   border-radius: 10px;
+  transition: all 1.5s;
+  will-change: transform;
 }
 
 /* change img opacity to 75% when hovering*/
 .projects img:hover{
-  opacity: 75%;
+  width: 100%;
+  filter: drop-shadow(2px 2px 3px #000)
 }
 
 .nav-bar {
-  list-style-type: none;
   display: flex;
   flex-direction: row;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
-  background-color: rgb(204, 197, 185);
-  border-radius: 10px;
-  border-bottom-style: solid;
-  border-bottom-color: #EB5E28;
-  border-bottom-width: 2px;
-  margin-bottom: 10px;
 }
 
 .nav-bar li {
@@ -59,21 +55,25 @@ li {
 
 .nav-bar a {
   color: rgb(37, 36, 34);
-  font-size: 20px;
-  padding: 20px;
+  text-align: center;
   border-radius: 10px;
-
+  padding: 5px;
+  font-size: 20px;
+  transition: all .5s ease-out;
   }
 
-  /* Change the link color to orange on hover */
 .nav-bar li a:hover {
-    background-color: rgb(235, 94, 40);
-    color:rgb(37, 36, 34);
+  background-color: rgb(235, 94, 40);
+  color:rgb(255, 252, 242);
   }
 
 
 h3{
   color: rgb(37, 36, 34);
+  transition: all 1.5s;
+}
+h3 : hover {
+  font-size: 40px;
 }
 
 h2{
@@ -102,7 +102,7 @@ a:hover {
 
 figure img {
  border-radius: 10px;
- width: 40%;
+ width: 30%;
 }
 
 figure{
@@ -151,18 +151,22 @@ a {
   margin-bottom: 1em;
 }
 .myForm button {
- padding: 1em;
-  background: gray;
-  color: white;
+  padding: 1em;
+  color: rgb(37, 36, 34);
   border: 0;
+  border-radius: 10px;
+  transition: all .5s ease-out;
 }
+
+.myForm button:hover {
+  background-color: rgb(235, 94, 40);
+  color: rgb(255, 252, 242);
+}
+
 
 footer{
   display: flex;
   background-color: rgb(204, 197, 185);
-  border-top-style: solid;
-  border-top-color: #EB5E28;
-  border-top-width: 2px;
   border-radius: 10px;
   padding: 5px;
   justify-content: center;
